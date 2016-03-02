@@ -9,6 +9,9 @@ version: 1.0
 gems: [jekyll-paginate]
 # Config sass build output by sass_dir
 # Config sass output is compressed or not
+
+safe: false
+
 #
 sass:
     sass_dir: /assets/stylesheet
@@ -21,9 +24,9 @@ sass:
 
 # Site
 ## You can create a locale setting at _locales and name *.yml
-title: ""
-description: "This is a simple theme for jekyll"
-keywords: "Pithy"
+title: "数字编程"
+description: "数字编程的博客"
+keywords: "intcpu 数字编程"
 locale: "zh_CN"
 
 # URL
@@ -32,12 +35,10 @@ url: ""
 baseurl: ""
 permalink: /:year/:month/:day/:title
 
-
 # Pagination
 ## Set per_page to 0 to disable pagination
-paginate: 5
+paginate: 1
 paginate_path: "/page:num/"
-
 
 # Writing
 highlighter: 'rouge'
@@ -59,22 +60,22 @@ rss:
 
 # Author
 author:
-  name: "your name"
-  avatar: "http://jekyllrb.com/img/logo-2x.png"
-  motto: "your motto"
+  name: "数字编程"
+  avatar: "http://i.imgur.com/JAtG4dq.png"
+  motto: "这是一个技术，在整理学习笔记"
 
 # Socials
 ## If you want the social show,place sure the social no comment
 ## The socials icon base font-awesome,you can learn more on http://fontawesome.io/icons/
 socials:
     - name: "weibo"
-      url: "http://www.weibo.com/usename/"
+      url: "http://www.weibo.com/intcpu"
       icon: "weibo"
     - name: "github"
-      url: "https://github.com/usename"
+      url: "https://github.com/intcpu"
       icon: "github"
     - name: "facebook"
-      url: "https://www.facebook.com/usename"
+      url: "https://www.facebook.com/intcpu"
       icon: "facebook"
 
 
@@ -89,26 +90,26 @@ comment:
 
 # duoshuo
 duoshuo:
-  enable: true
+  enable: false
   short_name: "your duoshuo short_name"
 
 # disqus
 disqus:
-  enable: false
-  short_name: "your disqus short_name"
+  enable: true
+  short_name: "zhuanye"
 
 #---------------------------------------------------------------
 # Site share setting
 #---------------------------------------------------------------
 duoshuo_share:
-    enable: true
+    enable: false
 
 #---------------------------------------------------------------
 # Site analysis setting
 #---------------------------------------------------------------
 # Baidu analysis
 baidu_analysis:
-  enable: true
+  enable: false
   token: "your baidu analysis token"
 
 # Google analysis
