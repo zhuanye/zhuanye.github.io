@@ -42,6 +42,7 @@ paginate_path: "/page:num/"
 
 # Writing
 highlighter: 'rouge'
+markdown: kramdown
 kramdown:
   input:  GFM
   syntax_highlighter: syntax_highlighter_opts
