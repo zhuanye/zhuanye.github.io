@@ -1,13 +1,13 @@
 deploy:
-    git checkout master
+    git checkout blog
     git add -A
     git commit -m "deploy blog"
     cp -r _site/ /tmp/
-    git checkout gh-pages
+    git checkout master
     rm -r ./*
     cp -r /tmp/_site/* ./
     git add -A
     git commit -m "deploy blog"
-    git push origin gh-pages
-    git checkout master
+    git push origin master
+    git checkout blog
     echo "deploy succeed"
