@@ -45,6 +45,7 @@ highlighter: 'rouge'
 markdown: kramdown
 kramdown:
   input:  GFM
+  use_coderay: true
   syntax_highlighter: syntax_highlighter_opts
   coderay:
     line_numbers:  nil
