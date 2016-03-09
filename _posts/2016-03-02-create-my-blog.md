@@ -7,7 +7,9 @@ author: intcpu
 ---
 
 >jekyll模板大全: http://jekyllthemes.org/ 
->用了这个： http://jekyllthemes.org/themes/guovz-pithy/ 
+
+>用了这个：http://jekyllthemes.org/themes/guovz-pithy/ 
+
 >模板GITHUB地址：https://github.com/guovz/jekyll-pithy 
 
 ***
