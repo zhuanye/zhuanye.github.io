@@ -26,7 +26,7 @@ sass:
 ## You can create a locale setting at _locales and name *.yml
 title: "数字编程"
 description: "数字编程的博客"
-keywords: "intcpu 数字编程"
+keywords: "intcpu 数字编程 LINUX 隐私保护 数据安全 程序 程序员 PHP GO PYTHON"
 locale: "zh_CN"
 
 # URL
